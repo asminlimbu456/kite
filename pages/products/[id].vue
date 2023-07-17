@@ -9,7 +9,7 @@
             <div class="col-span-2">
                 <h1 class="text-2x1 font-bold">{{ meal.meals[0].strMeal }}</h1>
                     <p>{{ meal.meals[0].StrInstructions }}</p>
-                    <h1 class="text-xl text-red-500">Video Tutorial</h1>0-+
+                    <h1 class="text-xl text-red-500">Video Tutorial</h1>
                     <a :href="meal.meals[0].strYoutube" target="_blank">How to Make {{ meal.meals[0].strMeal }}</a>
             </div>
     </div>
