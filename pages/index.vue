@@ -6,15 +6,15 @@
     <section v-if="pending" >
         <img src="~/assets/images/loading.gif" alt="">
     </section>
-    <section v-else>
-        <div class="mb-3">
+    <section v-else class="container m-auto">
+        <div class="mb-3 ">
             <label for="" class="from-lable">Select</label>
             <select class="form-select" aria-label="Default select example" v-model="name" @change="getUrl(name)">
                 <option selected> menu</option>
                 <option :value="category.strCategory" v-for="(category, index) in categoryData.categories" :key="index">{{ category.strCategory }}</option>
             </select>
         </div>
-        <div class="conatiner ms-auto grid grid-cols-4 gap-3 py-3 px-2">
+        <div class="conatiner ms-auto grid lg:grid-cols-4 gap-3 py-3 px-2">
             <div v-for="(p,index) in data.meals" :key="index">
                 <nuxt-link :to="`products/${p.idMeal}`">
                     <product-card :product="p" />
