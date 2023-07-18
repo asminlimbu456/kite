@@ -15,7 +15,7 @@
                         <source
                             srcset="https://www.themealdb.com/images/logo-small.png"
                             media="(min-width: 1024px)" />
-                        <img src="https://w7.pngwing.com/pngs/333/12/png-transparent-infinity-food-logo-thumbnail.png"
+                        <img src="https://www.themealdb.com/images/logo-small.png"
                             alt="Sf Logo" class="w-8 h-8 lg:w-[12.5rem] lg:h-[1.75rem]" />
                     </picture>
                 </a>
