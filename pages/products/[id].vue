@@ -1,6 +1,6 @@
 <template>
 <div>
-    <div class="grid grid-cols-3 gap-5 items-center py-5">
+    <div class="container m-auto grid lg:grid-cols-3 gap-5 items-center py-5">
             <div class="col-span-1">
                 <img :src="meal.meals[0].strMealThumb" alt="" width="400" height="400" class="rounded-full">
             </div>
