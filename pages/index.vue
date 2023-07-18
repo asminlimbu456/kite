@@ -23,10 +23,7 @@
         </div>
     </section>
 
-    <!-- form section -->
-    <section class="py-5 m-4">
-        <form-component></form-component>
-    </section>
+   
 </div>
 </template>
 
